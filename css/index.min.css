@@ -1,0 +1,326 @@
+body,h1,h2,h3,h4,h5,h6,li,p,pre,ul,input{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+body,html{
+	height:100%;
+	font-family:Arial,'微软雅黑';
+}
+.icloud{
+	height:100%;
+	margin-left:389px;
+	background:url(images/bg.png) repeat;
+}
+.icloud .left{
+	width:389px;
+	height:100%;
+	margin-left:-389px;
+	background:#00f;
+	float:left;
+	position:relative;
+	background:#383836;
+}
+.icloud .left .title{
+	position:fixed;
+	width:389px;
+	height:44px;
+	border-bottom:1px solid #1a1a1a;
+}
+.icloud .left .title .logo{
+	float:left;
+	color:#fff;
+	font-size:20px;
+	line-height:44px;
+	margin-left:12px;
+}
+.icloud .left .title .add{
+	float:right;
+	width:44px;
+	height:44px;
+	cursor:pointer;
+	opacity:.6;
+}
+.icloud .left .title .add:hover{
+	opacity:1;
+}
+.icloud .left .title .add span{
+	display:block;
+	width:50%;
+	height:0;
+	border-top:1px solid #fff;
+}
+.icloud .left .title .add span:nth-child(1){
+	margin-top:22px;
+}
+.icloud .left .title .add span:nth-child(2){
+	transform:rotate(90deg);
+}
+.icloud .left .list{
+	width:100%;
+	height:auto;
+	margin-top:44px;
+}
+.icloud .left .list ul{
+	width:100%;
+	height:100%;
+}
+.icloud .left .list ul li{
+	width:100%;
+	height:44px;
+}
+.icloud .left .list ul li>div{
+	float:left;
+	height:100%;
+}
+.icloud .left .list ul li .colorpoint{
+	width:44px;
+}
+.icloud .left .list ul li .colorpoint span{
+	display:block;
+	width:17px;
+	height:17px;
+	transform:translate(14px,14px);
+	border-radius:50%;
+}
+.icloud .left .list ul li .tit{
+	width:345px;
+	border-bottom:1px solid #2a2a28;
+	border-top:1px solid #3e3e3c;
+	color:#fff;
+	font-size:18px;
+	line-height:44px;
+	padding-left:10px;
+	box-sizing:border-box;
+}
+.icloud .right{
+	height:100%;
+	width:100%;
+	float:right;
+	border-top:1px solid #c2c2c2;
+	box-sizing:border-box;
+}
+.icloud .right .search{
+	width:100%;
+	height:44px;
+	border-bottom:1px solid #cecece;
+}
+.icloud .right .search .s-left{
+	width:480px;
+	height:100%;
+	border-right:1px solid #d6d6d6;
+	float:left;
+}
+.icloud .right .search .s-left .icon{
+	width:30px;
+	height:30px;
+	background: url(../images/logo.png) no-repeat -137px -353px;
+	float:left;
+	margin:7px 5px 7px 10px;
+}
+.icloud .right .search .s-left input{
+	border:0;
+	outline:0;
+	height:44px;
+	width:435px;
+	color:#666;
+	font-size: 19px;
+	float:left;
+}
+.icloud .right .search .s-right{
+	float:right;
+}
+.icloud .right .search .s-right .user{
+	font-size:20px;
+	float:left;
+	color:#333;
+	line-height:24px;
+	padding-right:30px;
+	border-right:1px solid #e5e5e5;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.icloud .right .search .s-right .help{
+	width:22px;
+	height:22px;
+	float:left;
+	margin:11px 15px;
+	border-radius:50%;
+	border:1px solid #545454;
+	font-size:16px;
+	text-align:center;
+	line-height:26.4px;
+	color:#545454;
+	opacity:.8;
+}
+.icloud .right .search .s-right .help:hover{
+	opacity:1;
+}
+.icloud .right>.title{
+	margin-top:20px;
+	padding-bottom:14px;
+	height:50px;
+	margin-left:30px;
+	overflow:hidden
+	vertical-align:bottom;
+	border-bottom:1px solid #e0e0e0;
+	position: relative;
+}
+.icloud .right .title .main-tit{
+	font-size:40px;
+	float:left;
+}
+.icloud .right .title .options{
+	font-size:18px;
+	float:right;
+	margin-right:30px;
+	margin-top:25px;
+	cursor:pointer;
+}
+.icloud .right .title .color{
+	width:355px;
+	height:226px;
+	position: absolute;
+	right:90px;
+	top:-30px;
+	background: #fff;
+	border-radius: 5px;
+	padding:5px;
+	border:1px solid #E5E5E5;
+	z-index: 1000;
+}
+.icloud .right .title .color .box{
+	width:100%;
+	height:100%;
+	border:1px solid #E5E5E5;
+	border-radius: 3px;
+}
+.icloud .right .title .color .box .inner{
+	width:316px;
+	height:203px;
+	margin:0 auto;
+	margin-top: 23px;
+}
+.icloud .right .title .color .box .inner .title{
+	width:312px;
+	height:40px;
+	border:1px solid #d9d9d9;
+}
+.icloud .right .title .color .box .inner .title input{
+	padding-left:10px;
+	height:100%;
+	border:0;
+	outline:0;
+	font-size: 18px;
+}
+.icloud .right .title .color .box .inner .name{
+	margin-top: 20px;
+	font-size: 14px;
+}
+.icloud .right .title .color .box .inner .list-color{
+	height:30px;
+	margin-top: 20px;
+}
+.icloud .right .title .color .box .inner .list-color li{
+	margin-right:10px;
+	width:20px;
+	height:20px;
+	padding:3px;
+	border:2px solid transparent;
+	background-clip: content-box;
+	background-origin: content-box;
+	float:left;
+	border-radius: 50%;
+}
+.icloud .right .title .color .box .inner .caozuo{
+	height:27px;
+	margin-top: 20px;
+}
+.icloud .right .title .color .box .inner .caozuo span{
+	display: inline-block;
+	font-size: 16px;
+	width:34px;
+	cursor:pointer;
+}
+.icloud .right .title .color .box .inner .caozuo span:nth-child(1){
+	color:red;
+}
+.icloud .right .title .color .box .inner .caozuo span:nth-child(2){
+	margin-left: 150px;
+	color:#007aff;
+}
+.icloud .right .title .color .box .inner .caozuo span:nth-child(3){
+	
+}
+.icloud .right .title .color .box .inner .caozuo span:nth-child(4){
+	color:#007aff;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.icloud .right .done .com{
+	margin-top:20px;
+	padding-bottom:10px;
+	margin-left:30px;
+	overflow:hidden;
+	vertical-align:bottom;
+	border-bottom:1px solid #e0e0e0;
+	font-size: 20px;
+	color:#999;
+}
+.icloud .right .done .com .xsj{
+	display: inline-block;
+	width:0;
+	height:0;
+	border:10px solid transparent;
+	border-left-color: #999;
+	margin-left: 10px;
+}
+.icloud .right .done .com .xsj1{
+	display: inline-block;
+	width:0;
+	height:0;
+	border:10px solid transparent;
+	border-top-color: #999;
+	margin-left: 10px;
+}
+.icloud .right li{
+	overflow: hidden;
+	height:50px;
+	line-height: 50px;
+}
+.icloud .right li div{
+	float: left;
+}
+.icloud .right .colorpoint{
+	width:20px;
+	height:20px;
+	margin-top: 8px;
+	margin-left: 35px;
+	border-radius:50%;
+	padding:3px;
+	border: 2px solid transparent;
+	background: transparent;
+	background-clip: content-box;
+	background-origin: content-box;
+}
+.icloud .right .con{
+	width:500px;
+	height:100%;
+	margin-left: 20px;
+	font-size: 20px;
+	color:#999;
+	border:0;
+	outline: 0;
+	border-bottom: 1px solid red;
+}
+.icloud .right .doing .new{
+	color:#999;
+	font-size: 24px;
+	height:50px;
+	line-height: 50px;
+	margin-left: 30px;
+	border-bottom: 1px solid #E0E0E0;
+}
